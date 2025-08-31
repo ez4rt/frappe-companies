@@ -1,0 +1,3 @@
+[submodule "apps/companies_management"]
+	path = apps/companies_management
+	url = https://github.com/ez4rt/companies-management.git
