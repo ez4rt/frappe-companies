@@ -1,0 +1,12 @@
+set -o pipefail; /usr/bin/pg_dump postgresql://_f0b4f5207f336871:**********@127.0.0.1:5432/_f0b4f5207f336871 | /usr/bin/gzip >> ./companies.manage/private/backups/20250827_230005-companies_manage-database.sql.gz
+
+Backup Summary for companies.manage at 2025-08-27 23:00:09.803164
+Config  : /home/osboxes/bench-companies/sites/companies.manage/private/backups/20250827_230005-companies_manage-site_config_backup.json 128.0B
+Database: /home/osboxes/bench-companies/sites/companies.manage/private/backups/20250827_230005-companies_manage-database.sql.gz 230.7KiB
+Backup for Site companies.manage has been successfully completed
+set -o pipefail; /usr/bin/pg_dump postgresql://_f0b4f5207f336871:**********@127.0.0.1:5432/_f0b4f5207f336871 | /usr/bin/gzip >> ./companies.manage/private/backups/20250831_170002-companies_manage-database.sql.gz
+
+Backup Summary for companies.manage at 2025-08-31 17:00:03.485521
+Config  : /home/osboxes/bench-companies/sites/companies.manage/private/backups/20250831_170002-companies_manage-site_config_backup.json 128.0B
+Database: /home/osboxes/bench-companies/sites/companies.manage/private/backups/20250831_170002-companies_manage-database.sql.gz 240.6KiB
+Backup for Site companies.manage has been successfully completed

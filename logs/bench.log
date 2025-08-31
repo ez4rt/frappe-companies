@@ -1,0 +1,87 @@
+2025-08-27 08:20:33,365 DEBUG cd bench-companies && python3 -m venv env
+2025-08-27 08:20:35,545 DEBUG cd bench-companies && /home/osboxes/bench-companies/env/bin/python -m pip install --quiet --upgrade pip
+2025-08-27 08:20:36,975 DEBUG cd bench-companies && /home/osboxes/bench-companies/env/bin/python -m pip install --quiet wheel
+2025-08-27 08:20:38,115 LOG Getting frappe
+2025-08-27 08:20:38,116 DEBUG cd bench-companies/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-08-27 08:20:44,882 LOG Installing frappe
+2025-08-27 08:20:44,884 DEBUG cd /home/osboxes/bench-companies && /home/osboxes/bench-companies/env/bin/python -m pip install --quiet --upgrade -e /home/osboxes/bench-companies/apps/frappe 
+2025-08-27 08:21:27,395 DEBUG cd /home/osboxes/bench-companies/apps/frappe && yarn install --check-files
+2025-08-27 08:21:47,253 DEBUG cd bench-companies && bench build
+2025-08-27 08:21:47,508 INFO /home/osboxes/.local/bin/bench build
+2025-08-27 08:22:03,770 LOG setting up backups
+2025-08-27 08:22:04,061 LOG backups were set up
+2025-08-27 08:22:04,069 INFO Bench bench-companies initialized
+2025-08-27 08:22:20,331 INFO /home/osboxes/.local/bin/bench --version
+2025-08-27 08:22:27,895 INFO /home/osboxes/.local/bin/bench find .
+2025-08-27 08:23:38,900 INFO /home/osboxes/.local/bin/bench new-app companies_management
+2025-08-27 08:23:38,903 LOG creating new app companies_management
+2025-08-27 08:24:56,600 LOG Installing companies_management
+2025-08-27 08:24:56,601 DEBUG cd /home/osboxes/bench-companies && /home/osboxes/bench-companies/env/bin/python -m pip install --quiet --upgrade -e /home/osboxes/bench-companies/apps/companies_management 
+2025-08-27 08:24:58,237 DEBUG bench build --app companies_management
+2025-08-27 08:24:58,326 INFO /home/osboxes/.local/bin/bench build --app companies_management
+2025-08-27 08:28:21,632 INFO /home/osboxes/.local/bin/bench new-site companies.manage --db-type postgres
+2025-08-27 08:28:47,659 INFO /home/osboxes/.local/bin/bench new-site companies.manage --db-type postgres
+2025-08-27 08:31:14,522 INFO /home/osboxes/.local/bin/bench --site companies.manage add-to-hosts
+2025-08-27 08:32:15,214 INFO /home/osboxes/.local/bin/bench --site companies.manage install-app companies_management
+2025-08-27 08:32:41,311 INFO /home/osboxes/.local/bin/bench --site companies.manage list-apps
+2025-08-27 08:33:27,394 INFO /home/osboxes/.local/bin/bench --site companies.manage console
+2025-08-27 08:34:15,615 INFO /home/osboxes/.local/bin/bench set-config -g developer_mode true
+2025-08-27 08:34:22,416 INFO /home/osboxes/.local/bin/bench start
+2025-08-27 08:34:22,672 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-27 08:34:22,726 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-27 08:34:22,739 INFO /home/osboxes/.local/bin/bench watch
+2025-08-27 08:34:22,749 INFO /home/osboxes/.local/bin/bench worker
+2025-08-27 09:30:04,682 INFO /home/osboxes/.local/bin/bench find .
+2025-08-27 09:30:10,170 INFO /home/osboxes/.local/bin/bench start
+2025-08-27 09:30:10,514 INFO /home/osboxes/.local/bin/bench watch
+2025-08-27 09:30:10,561 INFO /home/osboxes/.local/bin/bench worker
+2025-08-27 09:30:10,608 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-27 09:30:10,635 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-27 10:33:44,546 INFO /home/osboxes/.local/bin/bench start
+2025-08-27 10:33:44,808 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-27 10:33:44,809 INFO /home/osboxes/.local/bin/bench worker
+2025-08-27 10:33:44,867 INFO /home/osboxes/.local/bin/bench watch
+2025-08-27 10:33:44,884 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-27 12:00:03,027 INFO /home/osboxes/.local/bin/bench --verbose --site all backup
+2025-08-31 04:52:34,002 INFO /home/osboxes/.local/bin/bench find .
+2025-08-31 04:52:41,055 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 04:52:41,366 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 04:52:41,375 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 04:52:41,386 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 04:52:41,477 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 05:43:19,846 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 05:43:20,187 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 05:43:20,195 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 05:43:20,211 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 05:43:20,339 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 05:52:18,729 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 05:52:19,065 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 05:52:19,073 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 05:52:19,120 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 05:52:19,268 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 05:53:45,327 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 05:53:45,700 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 05:53:45,712 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 05:53:45,767 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 05:53:45,778 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 06:00:01,875 INFO /home/osboxes/.local/bin/bench --verbose --site all backup
+2025-08-31 06:10:11,226 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 06:10:11,559 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 06:10:11,584 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 06:10:11,621 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 06:10:11,695 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 10:06:19,565 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 10:06:19,771 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 10:06:19,806 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 10:06:19,820 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 10:06:19,877 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 10:54:37,650 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 10:54:37,908 INFO /home/osboxes/.local/bin/bench watch
+2025-08-31 10:54:37,923 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 10:54:37,982 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 10:54:37,994 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 13:02:26,646 INFO /home/osboxes/.local/bin/bench start
+2025-08-31 13:02:26,864 INFO /home/osboxes/.local/bin/bench serve --port 8001
+2025-08-31 13:02:26,873 INFO /home/osboxes/.local/bin/bench schedule
+2025-08-31 13:02:26,924 INFO /home/osboxes/.local/bin/bench worker
+2025-08-31 13:02:26,924 INFO /home/osboxes/.local/bin/bench watch

@@ -1,0 +1,93 @@
+2025-08-27 12:16:25,831 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '123345567', 'cmd': 'my_app.my_app.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:16:25,833 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '12334556', 'cmd': 'my_app.my_app.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:19:46,986 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '12345678', 'cmd': 'my_app.my_app.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:19:47,814 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '123456789', 'cmd': 'my_app.my_app.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:19:50,446 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '12345678', 'cmd': 'my_app.my_app.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:23:03,698 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:23:04,856 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:23:11,407 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:23:12,252 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,t', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:24:31,124 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'c,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:24:49,581 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'сд', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:24:55,507 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '12345567', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:25:11,396 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '2345567', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:33:29,771 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'сб', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:33:30,406 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'сбе', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:33:35,134 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'сбер', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-27 12:34:09,169 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '123', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:40:04,014 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,th', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:40:15,384 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': '77', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:43:39,017 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'Сб', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:46:12,069 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'Сь', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:46:31,926 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'dad', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:51:17,837 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:51:24,760 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'C,', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 05:52:37,151 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'query': 'Сб', 'cmd': 'companies_management.companies_management.doctype.client.client.get_party_suggestions'}
+2025-08-31 06:13:32,468 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'inn': '7777', 'cmd': 'companies_management.companies_management.doctype.client.client.get_address_by_inn'}
+2025-08-31 06:14:16,877 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'inn': '77', 'cmd': 'companies_management.companies_management.doctype.client.client.get_address_by_inn'}
+2025-08-31 06:14:37,065 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'inn': '77', 'cmd': 'companies_management.companies_management.doctype.client.client.get_address_by_inn'}
+2025-08-31 06:15:01,171 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'inn': '77', 'cmd': 'companies_management.companies_management.doctype.client.client.get_address_by_inn'}
+2025-08-31 06:41:08,848 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'doctype': 'Client', 'name': 'new-client-rgjpiulkqd', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-31 06:41:14,802 ERROR frappe New Exception collected in error log
+Site: companies.manage
+Form Dict: {'doctype': 'Client', 'name': 'new-client-rgjpiulkqd', 'cmd': 'frappe.desk.form.load.getdoc'}
